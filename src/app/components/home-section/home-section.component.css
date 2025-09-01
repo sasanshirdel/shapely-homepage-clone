@@ -1,0 +1,70 @@
+.home {
+    background: url("../../assets/images/home.jpg");
+    height: 90rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__content {
+    max-width: 70rem;
+    text-align: center;
+
+}
+
+.home__title {
+    font-size: 6rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.home__des {
+    margin-top: 2rem;
+}
+
+.home__links {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.app-btn {
+    text-decoration: none;
+    color: inherit;
+    width: 20rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #745cf9;
+    font-weight: bold;
+    transition: all 150ms ease-in;
+    -webkit-transition: all 150ms ease-in;
+    -moz-transition: all 150ms ease-in;
+    -ms-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+}
+
+.app-btn:hover {
+    background-color: #fff;
+    color: #745cf9;
+    outline: .2rem solid #745cf9;
+}
+
+.app-btn--outline {
+    background-color: transparent;
+    border: .2rem solid #fff;
+}
+
+.app-btn--outline:hover {
+    background-color: #745cf9;
+    border-color: #745cf9;
+    color: #fff;
+}
