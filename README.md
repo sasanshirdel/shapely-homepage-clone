@@ -1,6 +1,15 @@
 # Shapely Homepage Clone - Angular Version
 
-![Shapely Angular Screenshot](./screenshot.png) <!-- اضافه کن اگر داری -->
+<div>
+  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot1.png" width="500"/>
+  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot2.png" width="500"/>
+</div>
+
+---
+
+<p align="center">
+  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot3.png" width="400"/>
+</p>
 
 ## Overview
 
