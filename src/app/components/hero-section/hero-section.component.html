@@ -1,0 +1,15 @@
+<section class="hero" [style.background-color]="bgColor()">
+    <div class="container">
+        <div class="hero-wrapper" [style.flex-direction]="direction()">
+            <div class="hero__banner">
+                <img [src]="imgProps().imgUrl" [alt]="imgProps().imgAlt" class="hero__img">
+            </div>
+            <div class="hero__content">
+                <h2 class="hero__title">{{ heroTitle() }}</h2>
+                <p class="hero__description">{{ heroDes() }}</p>
+                <!-- <a href="#" class="app-btn hero__link"></a> -->
+                <app-button linkText="Read More" />
+            </div>
+        </div>
+    </div>
+</section>

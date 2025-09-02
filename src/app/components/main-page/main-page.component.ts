@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from "../header/header.component";
 import { HomeSectionComponent } from "../home-section/home-section.component";
+import { HeroSectionComponent } from "../hero-section/hero-section.component";
 
 @Component({
   selector: 'app-main-page',
-  imports: [HeaderComponent, HomeSectionComponent],
+  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css'
 })
