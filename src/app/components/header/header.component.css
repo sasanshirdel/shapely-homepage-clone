@@ -191,12 +191,15 @@ input {
     }
 
     .menu--open {
-        height: 25rem;
+        align-items: center;
+        height: 30rem;
+        padding-top: 2rem;
         border-bottom-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
     }
 
     .search {
+        margin: auto;
         display: flex;
         margin-top: 2rem;
         padding: .5rem;
