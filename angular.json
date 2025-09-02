@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/1",
+            "outputPath": "dist/shapely-homepage",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "1:build:production"
+              "buildTarget": "shapely-homepage:build:production"
             },
             "development": {
-              "buildTarget": "1:build:development"
+              "buildTarget": "shapely-homepage:build:development"
             }
           },
           "defaultConfiguration": "development"
