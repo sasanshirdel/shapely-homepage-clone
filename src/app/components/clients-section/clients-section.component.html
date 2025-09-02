@@ -1,0 +1,19 @@
+<section class="clients-section">
+    <div class="container">
+        <h2 class="client-wrapper__title">Our Main Clients</h2>
+        <div class="clients-wrapper">
+            <div class="clients">
+                <div class="clients__slider">
+                    <div class="clients__track"
+                        [style.transform]="'translateX(-' + (index * (100 / itemsPerView)) + '%)'">
+                        @for (logo of logos; track logo.id) {
+                        <div class="client" [style.flex-basis]="100 / itemsPerView + '%'">
+                            <img [src]="logo.imgUrl" [alt]="'Logo ' + logo.id" />
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
