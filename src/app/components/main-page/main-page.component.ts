@@ -5,10 +5,11 @@ import { HeroSectionComponent } from "../hero-section/hero-section.component";
 import { ParallaxSectionComponent } from "../parallax-section/parallax-section.component";
 import { OptionsSectionComponent } from "../options-section/options-section.component";
 import { ProjectsSectionComponent } from "../projects-section/projects-section.component";
+import { FeedbackSectionComponent } from "../feedback-section/feedback-section.component";
 
 @Component({
   selector: 'app-main-page',
-  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent, ParallaxSectionComponent, OptionsSectionComponent, ProjectsSectionComponent],
+  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent, ParallaxSectionComponent, OptionsSectionComponent, ProjectsSectionComponent, FeedbackSectionComponent],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css'
 })

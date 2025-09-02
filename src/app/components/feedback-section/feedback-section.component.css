@@ -1,0 +1,48 @@
+.feedback {
+    background: url("../../../assets/images/feedback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    padding-top: 5rem;
+}
+
+.feedback__title {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.feedback-wrapper {
+    margin: auto;
+    margin-top: 4rem;
+    width: 76rem;
+}
+
+.feedback__text {
+    margin: 0;
+}
+
+.consumer__info {
+    margin-top: 5rem;
+}
+
+.consumer__banner {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.consumer__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.consumer__name {
+    display: block;
+    margin-top: 1rem;
+}
