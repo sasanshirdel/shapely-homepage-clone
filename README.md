@@ -1,8 +1,8 @@
 # Shapely Homepage Clone - Angular Version
 
 <div>
-  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot1.png" width="500"/>
-  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot2.png" width="500"/>
+  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot1.png" width="300"/>
+  <img src="https://github.com/sasanshirdel/shapely-homepage-clone/blob/main/src/assets/screenshots/screenshot2.png" width="300"/>
 </div>
 
 ---
