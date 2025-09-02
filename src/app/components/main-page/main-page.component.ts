@@ -4,10 +4,11 @@ import { HomeSectionComponent } from "../home-section/home-section.component";
 import { HeroSectionComponent } from "../hero-section/hero-section.component";
 import { ParallaxSectionComponent } from "../parallax-section/parallax-section.component";
 import { OptionsSectionComponent } from "../options-section/options-section.component";
+import { ProjectsSectionComponent } from "../projects-section/projects-section.component";
 
 @Component({
   selector: 'app-main-page',
-  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent, ParallaxSectionComponent, OptionsSectionComponent],
+  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent, ParallaxSectionComponent, OptionsSectionComponent, ProjectsSectionComponent],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css'
 })

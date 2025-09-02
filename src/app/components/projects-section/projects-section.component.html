@@ -1,0 +1,16 @@
+<section class="projects">
+    <div class="projects-wrapper">
+        <div class="projects__head">
+            <h2 class="project__title">Our Latest Projects</h2>
+            <p class="project__caption">Here is our latest projects. You'll love them!</p>
+        </div>
+        <div class="projects__gallary">
+            @for (img of projectGallaryImages; track img.id) {
+            <div class="project">
+                <span class="project__text">project #{{img.id}}</span>
+                <img [src]="img.imgUrl" alt="image" class="project__img">
+            </div>
+            }
+        </div>
+    </div>
+</section>
