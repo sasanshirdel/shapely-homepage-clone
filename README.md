@@ -1,59 +1,46 @@
-# 1
+# Shapely Homepage Clone - Angular Version
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+![Shapely Angular Screenshot](./screenshot.png) <!-- اضافه کن اگر داری -->
 
-## Development server
+## Overview
 
-To start a local development server, run:
+This is a **professional Angular project** inspired by the [Shapely](https://colorlibhub.com/shapely/) template.  
+The goal of this project was to **practice building a modern, responsive, and component-based homepage** using Angular framework.  
 
-```bash
-ng serve
-```
+**Note:** All code in this repository is written from scratch with Angular, and this is **not an official Shapely product**.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Angular Components:** Fully modular design using Angular components for reusability and maintainability.  
+- **Responsive Design:** Fully responsive layout that adapts to desktop, tablet, and mobile screens using CSS and Angular.  
+- **Dynamic Content:** Components designed to handle dynamic data (e.g., project gallery, clients slider, hero section).  
+- **Routing Ready:** Easy to extend with Angular Router for multiple pages in future.  
+- **Interactive Animations:** Smooth hover effects and slider animations implemented using CSS and Angular logic.  
+- **State Management Ready:** Structure allows adding services or NgRx for complex data management if needed.  
+- **SEO-Friendly:** Components designed with semantic HTML and meta tags ready for SEO optimization.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Technologies Used
 
-```bash
-ng generate --help
-```
+- Angular 19+  
+- TypeScript  
+- HTML5 / CSS3 (Flexbox, Grid, Media Queries)   
+- Git / GitHub for version control  
 
-## Building
+---
 
-To build the project run:
+<!-- ## Demo
 
-```bash
-ng build
-```
+You can view a live demo here: [Add your GitHub Pages / Netlify / Vercel link] 
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---  -->
 
-## Running unit tests
+## Installation / Usage
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+1. Clone the repository:
 
 ```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/username/shapely-angular-clone.git
