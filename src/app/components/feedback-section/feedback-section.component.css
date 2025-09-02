@@ -7,26 +7,42 @@
     text-align: center;
     color: #fff;
     padding: 5rem 0;
+    position: relative;
 }
 
 .feedback__title {
     margin: 0;
     font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.feedback-slider {
+    position: relative;
 }
 
 .feedback-wrapper {
     margin: auto;
-    margin-top: 4rem;
     width: 76rem;
+    max-width: 90%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.feedback-wrapper.fade-in {
+    opacity: 1;
+}
+
+.feedback-wrapper.fade-out {
+    opacity: 0;
 }
 
 .feedback__text {
     margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    min-height: 150px;
 }
 
-.consumer__info {
-    margin-top: 5rem;
-}
 
 .consumer__banner {
     width: 10rem;
@@ -34,6 +50,7 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
+    border: 4px solid rgba(255, 255, 255, 0.3);
 }
 
 .consumer__img {
@@ -45,4 +62,104 @@
 .consumer__name {
     display: block;
     margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.slider-nav {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slider-nav:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.slider-dots {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.slider-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slider-dot--active {
+    background-color: #fff;
+    transform: scale(1.2);
+}
+
+@media (max-width: 992px) {
+    .feedback__title {
+        font-size: 3rem;
+    }
+
+    .feedback__text {
+        font-size: 1.1rem;
+        min-height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback {
+        padding: 3rem 0;
+        background-attachment: scroll;
+    }
+
+    .feedback__title {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .feedback__text {
+        font-size: 1rem;
+        min-height: 200px;
+    }
+
+    .consumer__banner {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .slider-controls {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .feedback__title {
+        font-size: 2rem;
+    }
+
+    .slider-controls {
+        gap: 1rem;
+    }
+
+    .slider-nav {
+        width: 35px;
+        height: 35px;
+    }
 }

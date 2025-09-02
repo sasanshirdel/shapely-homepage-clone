@@ -1,17 +1,18 @@
 <section class="feedback">
     <div class="container">
         <h2 class="feedback__title">What Our Customers Say</h2>
-        <div class="feedback-wrapper">
-            <p class="feedback__text">Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus dictum, augue
-                tortor dictum ipsum, nec
-                congue arcu lorem in nisl. Duis neque lacus, viverra non mauris ac, pharetra rhoncus libero. Aliquam
-                varius viverra ex, in venenatis magna ornare sit amet. Integer varius sit amet turpis eu
-                ullamcorper.</p>
-            <div class="consumer__info">
-                <div class="consumer__banner">
-                    <img src="/assets/images/consumer.png" alt="consumer" class="consumer__img">
+
+        <div class="feedback-slider">
+            <div class="feedback-wrapper" [class.fade-out]="fadeState === 'fading'"
+                [class.fade-in]="fadeState === 'visible'">
+                <p class="feedback__text">{{ feedbacks[currentIndex].text }}</p>
+                <div class="consumer__info">
+                    <div class="consumer__banner">
+                        <img [src]="feedbacks[currentIndex].image" [alt]="feedbacks[currentIndex].name"
+                            class="consumer__img">
+                    </div>
+                    <span class="consumer__name">{{ feedbacks[currentIndex].name }}</span>
                 </div>
-                <span class="consumer__name">Aigars Silkalns</span>
             </div>
         </div>
     </div>
