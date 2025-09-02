@@ -1,0 +1,28 @@
+.parallax {
+    background: url("../../../assets/images/parallax-section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.parallax-wrapper {}
+
+.parallax__title {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.parallax__description {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 576px) {
+    .parallax__title {
+        font-size: 4rem;
+    }
+}
