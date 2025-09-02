@@ -7,10 +7,11 @@ import { OptionsSectionComponent } from "../options-section/options-section.comp
 import { ProjectsSectionComponent } from "../projects-section/projects-section.component";
 import { FeedbackSectionComponent } from "../feedback-section/feedback-section.component";
 import { ClienstSectionComponent } from "../clients-section/clients-section.component";
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-main-page',
-  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent, ParallaxSectionComponent, OptionsSectionComponent, ProjectsSectionComponent, FeedbackSectionComponent, ClienstSectionComponent],
+  imports: [HeaderComponent, HomeSectionComponent, HeroSectionComponent, ParallaxSectionComponent, OptionsSectionComponent, ProjectsSectionComponent, FeedbackSectionComponent, ClienstSectionComponent, FooterComponent],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css'
 })
